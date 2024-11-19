@@ -13,7 +13,6 @@ dependencies:
     sdk: flutter
   webview_flutter: ^4.2.2
   equatable: ^2.0.5
-  dio: ^4.0.6
   json_serializable: ^6.5.4
   json_annotation: ^4.7.0
   rxdart: ^0.27.7
