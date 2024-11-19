@@ -2,7 +2,7 @@ name: allofresh_browser
 description: AFBrowser is an enhanced in-app browser package built upon the foundation of the webview_flutter.
   Support webview for both Android & iOS.
 repository: https://github.com/allofresh/af_browser
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: ">=2.19.6 <4.0.0"
@@ -13,7 +13,6 @@ dependencies:
     sdk: flutter
   webview_flutter: ^4.2.2
   equatable: ^2.0.5
-  dio: ^4.0.6
   json_serializable: ^6.5.4
   json_annotation: ^4.7.0
   rxdart: ^0.27.7
