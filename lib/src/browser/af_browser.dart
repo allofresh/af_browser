@@ -74,7 +74,7 @@ class _AFBrowserState extends State<AFBrowser> {
 
         final canGoBack = await _webviewController.canGoBack();
         final shouldPop = widget.param.activateGoBack ? !canGoBack : true;
-        if (shouldPop && mounted) {
+        if (shouldPop && context.mounted) {
           widget.param.onBrowserClosedByUser?.call();
           context.pop();
         } else if (canGoBack) {

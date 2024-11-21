@@ -1,6 +1,6 @@
 # 1.0.1
 
-- Remove unused Dio
+- Remove unused dependencies
 
 # 1.0.0
 
